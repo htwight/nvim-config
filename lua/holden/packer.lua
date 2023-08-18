@@ -21,6 +21,8 @@ return require('packer').startup(function(use)
 		vim.cmd('colorscheme no-clown-fiesta')
 	end
  }
+ --[[use {"xero/miasma.nvim"}
+     vim.cmd("colorscheme miasma")]]
  --[[use{
 	'mcchrish/zenbones.nvim',
     requires = "rktjmp/lush.nvim",
